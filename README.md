@@ -1,6 +1,6 @@
-# CrashEyeFrontend
-Crash Eye Frontend
+# Zenith
+Zenith Software Crash Detection Frontend
 
-Run `npm install` on this folder to load all packages, then `npm start`
+Unzip the folder with respect to your OS and use the application
 
 

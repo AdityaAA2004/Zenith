@@ -1,4 +1,4 @@
-# Zenith Software Crash Detection Frontend
+# Zenith 
 
 Welcome to Zenith, your go-to solution for software crash detection! This frontend application is designed to provide a user-friendly interface for managing and monitoring crashes in your software.
 

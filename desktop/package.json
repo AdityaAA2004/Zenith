@@ -1,0 +1,20 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd ../ && npm run build && cd desktop && rm -rf ./dist && mkdir -p ./builder && cp -a ../build ./builder && electron-builder && cd .. && electron-packager desktop --overwrite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.3.0",
+    "electron-builder": "^24.6.4"
+  },
+  "dependencies": {
+    "electron-is-dev": "^2.0.0"
+  }
+}

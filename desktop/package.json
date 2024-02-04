@@ -6,7 +6,9 @@
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd ../ && npm run build && cd desktop && rm -rf ./dist && mkdir -p ./builder && cp -a ../build ./builder && electron-builder && cd .. && electron-packager desktop --overwrite"
+    "build": "cd ../ && npm run build && cd desktop && rm -rf ./dist && mkdir -p ./builder && cp -a ../build ./builder && electron-builder && cd .. && electron-packager desktop --overwrite",
+    "package-mac":"electron-packager . --overwrite --platform=darwin --icon=assets/icon/zenith.icns --prune=true",
+    "package-win": "electron-packager . --overwrite --asar=true --platform=win32--icon=assets/icon/win/zenith.ico --version-string.CompanyName=Zenith --version-strin.ProductName=\"Zenith\"",
   },
   "author": "",
   "license": "ISC",

@@ -8,7 +8,7 @@ Follow these simple steps to get started with Zenith:
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/your-username/zenith.git
+   git clone https://github.com/AdityaAA2004/zenith.git
    ```
 
 2. **Navigate to the Project Directory:**
